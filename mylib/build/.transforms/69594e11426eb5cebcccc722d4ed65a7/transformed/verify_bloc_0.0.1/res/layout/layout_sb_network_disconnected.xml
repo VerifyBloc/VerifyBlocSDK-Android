@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+    <ImageView
+        android:id="@+id/snack_bar_bg"
+        android:layout_width="343dp"
+        android:layout_height="68dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/shape_snack_bar_network_disconnected_bg"/>
+    <ImageView
+        android:id="@+id/snack_bar_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/snack_bar_bg"
+        app:layout_constraintTop_toTopOf="@id/snack_bar_bg"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:src="@mipmap/about"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/snack_bar_bg"
+        app:layout_constraintBottom_toBottomOf="@id/snack_bar_bg"
+        app:layout_constraintStart_toEndOf="@id/snack_bar_icon"
+        app:layout_constraintEnd_toEndOf="@id/snack_bar_bg"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        style="@style/font_14_regular"
+        android:textColor="#FFFFFF"
+        android:text="@string/snack_bar_network_disconnected_info"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

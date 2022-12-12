@@ -1,1 +1,0 @@
-# VerifyBlocSDK-Android

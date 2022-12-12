@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="reference" name="error_bg"/>
+    <attr format="reference" name="error_message"/>
+    <attr format="string" name="hint_text"/>
+    <attr format="reference" name="icon"/>
+    <attr format="reference" name="name"/>
+    <attr format="reference" name="normal_bg"/>
+    <attr format="reference" name="selected_bg"/>
+    <attr format="string" name="title"/>
+    <color name="background">#0D121D</color>
+    <color name="color_0a84ff">#0A84FF</color>
+    <color name="color_0ae3cb">#0AE3CB</color>
+    <color name="color_0d121d">#0d121d</color>
+    <color name="color_1b1c20">#1B1C20</color>
+    <color name="color_1c212b">#1C212B</color>
+    <color name="color_333b46">#333B46</color>
+    <color name="color_34e59b">#34E59B</color>
+    <color name="color_34e69b">#34E69B</color>
+    <color name="color_3af2f2f2">#3AF2F2F2</color>
+    <color name="color_3eaeff">#3EAEFF</color>
+    <color name="color_707070">#707070</color>
+    <color name="color_878a8e">#878A8E</color>
+    <color name="color_979797">#979797</color>
+    <color name="color_9b9b9b">#9B9B9B</color>
+    <color name="color_c4c4c4">#C4C4C4</color>
+    <color name="color_ea5e61">#EA5E61</color>
+    <color name="color_f2f2f2">#F2F2F2</color>
+    <color name="color_ffa7a7">#FFA7A7</color>
+    <color name="purple_700"/>
+    <dimen name="global_margin_bottom">41dp</dimen>
+    <dimen name="setting_item_height">56dp</dimen>
+    <dimen name="top_bar_height">56dp</dimen>
+    <integer name="kyc_max_progress">5</integer>
+    <string name="bloc">Bloc</string>
+    <string name="camera_access_is_off">The "Camera" access is off</string>
+    <string name="camera_access_is_off_info">You\'ll need to change this in your device\'s settings to enable KYC process.</string>
+    <string name="camera_permission_not_grant">Permissions not granted by the user.</string>
+    <string name="can_not_find_your_document">Can\'t find your document type or country of issue?</string>
+    <string name="cancel">Cancel</string>
+    <string name="capture_retake">Retake</string>
+    <string name="confirm">Confirm</string>
+    <string name="contact_us">Contact us</string>
+    <string name="done">Done</string>
+    <string name="earning_team_search_hint">Search</string>
+    <string name="error_page_info">Something went wrong…</string>
+    <string name="error_page_tip">Please try again later.</string>
+    <string name="female">Female</string>
+    <string name="go_setting">Go to Settings</string>
+    <string name="kyc_country_search_no_result">No result was found</string>
+    <string name="kyc_process_estimated_review_time">Estimated review time</string>
+    <string name="kyc_process_full_legal_name">Full legal\nname</string>
+    <string name="kyc_process_id_or_passport">ID/Passport</string>
+    <string name="kyc_process_selfie">Selfie</string>
+    <string name="kyc_process_start_kyc">Starting KYC</string>
+    <string name="kyc_process_start_now">Start now</string>
+    <string name="kyc_process_things_we_need">Things we need</string>
+    <string name="kyc_process_verify_identity">Verify identity</string>
+    <string name="kyc_selfie_capture_face_detecting">Face detecting…</string>
+    <string name="kyc_selfie_capture_face_detecting_tip">Please look into the camera frame</string>
+    <string name="kyc_selfie_capture_face_failed">Capture Failed,Please try again.</string>
+    <string name="kyc_selfie_capture_face_keep_looking_in_the_camera">Keep looking into the camera frame</string>
+    <string name="kyc_selfie_capture_face_liveness_detection_completed">Liveness detection completed! </string>
+    <string name="kyc_selfie_capture_face_photo_taken">Photo taken!</string>
+    <string name="kyc_selfie_capture_face_ready_to_take_photo">Get ready to take a photo</string>
+    <string name="kyc_selfie_capture_learn_desc">Make sure that your face is positioned in the frame and that it shows properly.</string>
+    <string name="kyc_selfie_capture_learn_item_1">Face forward and make sure your eyes are clearly visble</string>
+    <string name="kyc_selfie_capture_learn_item_2">Remove your glasses, if necessary</string>
+    <string name="kyc_selfie_capture_learn_title">Take a selfie</string>
+    <string name="kyc_selfie_liveness_capture_learn_title">Record a selfie video</string>
+    <string name="kyc_selfie_record_face_failed">Record Failed,Please try again.</string>
+    <string name="kyc_tag_bottom_button">8</string>
+    <string name="kyc_tag_capture_bottom_bg">10</string>
+    <string name="kyc_tag_icon_drop_down">15</string>
+    <string name="kyc_tag_input_item">12</string>
+    <string name="kyc_tag_item_bottom_bg">18</string>
+    <string name="kyc_tag_item_desc">6</string>
+    <string name="kyc_tag_item_title">5</string>
+    <string name="kyc_tag_item_top_bg">17</string>
+    <string name="kyc_tag_main_color">9</string>
+    <string name="kyc_tag_not_editable_textview">16</string>
+    <string name="kyc_tag_page_bg">1</string>
+    <string name="kyc_tag_power_by">19</string>
+    <string name="kyc_tag_radio_button">14</string>
+    <string name="kyc_tag_selfie_capture">11</string>
+    <string name="kyc_tag_tip">7</string>
+    <string name="kyc_tag_tip_bg">13</string>
+    <string name="kyc_tag_title">3</string>
+    <string name="kyc_tag_title_desc">4</string>
+    <string name="kyc_tag_top_left_icon">2</string>
+    <string name="kyc_verify_country">Country</string>
+    <string name="kyc_verify_country_tip">Select Country</string>
+    <string name="kyc_verify_document_driver_license">Driver license</string>
+    <string name="kyc_verify_document_id_card">ID card</string>
+    <string name="kyc_verify_document_passport">Passport</string>
+    <string name="kyc_verify_document_residence_permit">Residence Permit</string>
+    <string name="kyc_verify_document_what_provide">Which document are you going to provide?</string>
+    <string name="kyc_verify_id_card_where_issue">Please choose the issuing authority of your document.</string>
+    <string name="kyc_verify_identity_complete_with_your_personal_detail">Fill in your personal details</string>
+    <string name="kyc_verify_identity_document">Identity document</string>
+    <string name="kyc_verify_identity_personal_detail">Personal details</string>
+    <string name="kyc_verify_identity_photo_of_you">Liveness detection</string>
+    <string name="kyc_verify_identity_photo_of_your_id_or_passport">Take photos of your ID Card/ Passport/ Driver License</string>
+    <string name="kyc_verify_identity_selfie">Identity verification</string>
+    <string name="kyc_verify_identity_take_time">Takes just about 2 minutes</string>
+    <string name="kyc_verify_identity_title">Verify identity</string>
+    <string name="kyc_verify_process_capture_document_check">Is all information on the document visible and easy to read?</string>
+    <string name="kyc_verify_process_capture_driver_license_back">Driver license back</string>
+    <string name="kyc_verify_process_capture_driver_license_front">Driver license front</string>
+    <string name="kyc_verify_process_capture_go_ahead">Yes, go ahead!</string>
+    <string name="kyc_verify_process_capture_id_card_back">ID card back</string>
+    <string name="kyc_verify_process_capture_id_card_back_tip">Take a photo of the back of your identity document</string>
+    <string name="kyc_verify_process_capture_id_card_front">ID card front</string>
+    <string name="kyc_verify_process_capture_id_card_front_tip">Take a photo of the front of your identity document</string>
+    <string name="kyc_verify_process_capture_passport">Passport</string>
+    <string name="kyc_verify_process_capture_selfie">Selfie</string>
+    <string name="kyc_verify_process_capture_selfie_check">Is your face clear and recognisable?</string>
+    <string name="kyc_verify_process_capture_selfie_tip">Make sure your face fits the frame</string>
+    <string name="kyc_verify_process_capture_tip">Take a photo of your identity document</string>
+    <string name="kyc_verify_process_personal_details">Personal details</string>
+    <string name="kyc_verify_process_personal_details_date_of_birth">Date of birth</string>
+    <string name="kyc_verify_process_personal_details_document_type">Document type</string>
+    <string name="kyc_verify_process_personal_details_first_name">First name</string>
+    <string name="kyc_verify_process_personal_details_gender">Gender</string>
+    <string name="kyc_verify_process_personal_details_issue_date">Issue date</string>
+    <string name="kyc_verify_process_personal_details_last_name">Last name</string>
+    <string name="kyc_verify_process_personal_details_middle_name">Middle name (optional)</string>
+    <string name="kyc_verify_process_personal_details_number">Document No.</string>
+    <string name="kyc_verify_process_personal_details_tip">Complete your application with details below</string>
+    <string name="kyc_verify_process_personal_details_tip_2">Please enter your personal details in the same language that your document is issued in.\n\nFor example: If you use a document issued in Korean, you should enter your name in Korean as well.</string>
+    <string name="kyc_verify_process_personal_details_valid_until">Valid until</string>
+    <string name="kyc_verify_status_approved">Approved</string>
+    <string name="kyc_verify_status_approved_tip">Your KYC application is completed and approved!</string>
+    <string name="kyc_verify_status_reject_final_tip_1">We could not verify your profile. Please contact </string>
+    <string name="kyc_verify_status_reject_final_tip_2"> for more details.</string>
+    <string name="kyc_verify_status_reject_final_tip_link_address">support@verifybloc.com</string>
+    <string name="kyc_verify_status_reject_resubmission_tip">Please resubmit your application for verification.</string>
+    <string name="kyc_verify_status_rejected">Rejected</string>
+    <string name="kyc_verify_status_submit_again">Submit again</string>
+    <string name="kyc_verify_status_title">Verification status</string>
+    <string name="kyc_verify_status_under_review">Under review</string>
+    <string name="kyc_verify_status_under_review_tip">We will notify you once your verification is completed.</string>
+    <string name="male">Male</string>
+    <string name="next">Next</string>
+    <string name="ok">Ok</string>
+    <string name="optional">optional</string>
+    <string name="powered_by">Powered by</string>
+    <string name="processing">Processing</string>
+    <string name="question">Question?</string>
+    <string name="select">Select</string>
+    <string name="snack_bar_network_disconnected_info">Looks like you’re not connected to the internet.</string>
+    <string name="tip_this_field_is_required">This field is required</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="verify">Verify</string>
+    <style name="BottomSheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/bottomSheetStyleWrapper</item>
+    </style>
+    <style name="CustomTextFieldLayoutTheme" parent="font_16_regular">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">76dp</item>
+        <item name="android:paddingStart">18dp</item>
+        <item name="android:paddingEnd">18dp</item>
+        
+        <item name="hintTextColor">#c4c4c4</item>
+        
+        <item name="android:textColorHint">#979797</item>
+        <item name="android:background">@drawable/selector_text_input_bg</item>
+    </style>
+    <style name="FullScreenDialogStyle">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+    <style name="SheetStyle" parent="android:Widget">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="behavior_peekHeight">auto</item>
+        <item name="behavior_hideable">true</item>
+        <item name="behavior_skipCollapsed">false</item>
+    </style>
+    <style name="Theme.MintExKyc" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/color_ea5e61</item>
+    </style>
+    <style name="TransparentBottomSheetStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/SheetStyle</item>
+    </style>
+    <style name="base_font_bold">
+
+    </style>
+    <style name="base_font_regular">
+
+    </style>
+    <style name="bottomSheetStyleWrapper" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="font_12_bold" parent="base_font_bold">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="font_12_regular" parent="base_font_regular">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="font_13_bold" parent="base_font_bold">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="font_13_regular" parent="base_font_regular">
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="font_14_bold" parent="base_font_bold">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="font_14_regular" parent="base_font_regular">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="font_15_bold" parent="base_font_bold">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="font_15_regular" parent="base_font_regular">
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="font_16_bold" parent="base_font_bold">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="font_16_regular" parent="base_font_regular">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="font_17_bold" parent="base_font_bold">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="font_17_regular" parent="base_font_regular">
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="font_18_bold" parent="base_font_bold">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="font_18_regular" parent="base_font_regular">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="font_19_bold" parent="base_font_bold">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="font_19_regular" parent="base_font_regular">
+        <item name="android:textSize">19sp</item>
+    </style>
+    <style name="font_20_bold" parent="base_font_bold">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="font_20_regular" parent="base_font_regular">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="font_21_bold" parent="base_font_bold">
+        <item name="android:textSize">21sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="font_21_regular" parent="base_font_regular">
+        <item name="android:textSize">21sp</item>
+    </style>
+    <style name="font_22_bold" parent="base_font_bold">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="font_22_regular" parent="base_font_regular">
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="font_23_bold" parent="base_font_bold">
+        <item name="android:textSize">23sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="font_23_regular" parent="base_font_regular">
+        <item name="android:textSize">23sp</item>
+    </style>
+    <style name="font_24_bold" parent="base_font_bold">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="font_24_regular" parent="base_font_regular">
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="font_25_bold" parent="base_font_bold">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="font_26_bold" parent="base_font_bold">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="font_27_bold" parent="base_font_bold">
+        <item name="android:textSize">27sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="font_28_bold" parent="base_font_bold">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="font_28_regular" parent="base_font_regular">
+        <item name="android:textSize">28sp</item>
+    </style>
+    <style name="roundedCornersImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">2%</item>
+    </style>
+    <declare-styleable name="CustomNaviBar">
+        <attr name="title"/>
+        <attr format="reference" name="icon_left"/>
+    </declare-styleable>
+    <declare-styleable name="CustomProgressBar">
+        <attr format="integer" name="max"/>
+        <attr format="integer" name="progress"/>
+    </declare-styleable>
+    <declare-styleable name="CustomTextInput">
+        <attr name="title"/>
+        <attr name="hint_text"/>
+        <attr name="error_bg"/>
+        <attr name="normal_bg"/>
+        <attr name="selected_bg"/>
+        <attr name="error_message"/>
+        <attr format="boolean" name="enable_input"/>
+        <attr format="boolean" name="is_optional"/>
+    </declare-styleable>
+    <declare-styleable name="CustomTextInput2">
+        <attr name="hint_text"/>
+        <attr name="error_bg"/>
+        <attr name="normal_bg"/>
+        <attr name="selected_bg"/>
+        <attr name="error_message"/>
+    </declare-styleable>
+    <declare-styleable name="VerifyIdentityItem">
+        <attr format="string" name="kyc_index"/>
+        <attr format="reference" name="kyc_index_bg"/>
+        <attr format="string" name="kyc_title"/>
+        <attr format="reference" name="kyc_icon"/>
+        <attr format="string" name="kyc_content"/>
+        <attr format="boolean" name="kyc_keep_icon_style"/>
+    </declare-styleable>
+</resources>

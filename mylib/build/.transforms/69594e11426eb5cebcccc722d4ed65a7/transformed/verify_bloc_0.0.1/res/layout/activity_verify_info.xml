@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".ui.activity.VerifyInfoActivity"
+    android:tag="@string/kyc_tag_page_bg">
+
+    <network.mintex.module_kyc.ui.widget.CustomNaviBar
+        android:id="@+id/verify_identity_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:icon_left="@mipmap/navi_close"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="" />
+
+    <LinearLayout
+        android:id="@+id/layout_verify_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/verify_identity_title">
+
+        <TextView
+            android:id="@+id/tv_subtitle"
+            style="@style/font_22_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/kyc_process_verify_identity"
+            android:textColor="@color/color_f2f2f2"
+            android:tag="@string/kyc_tag_title"/>
+
+        <TextView
+            android:id="@+id/tv_subtitle_desc"
+            style="@style/font_14_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/kyc_verify_identity_take_time"
+            android:textColor="@color/color_c4c4c4"
+            android:tag="@string/kyc_tag_title_desc"
+            android:visibility="invisible"/>
+
+        <network.mintex.module_kyc.ui.widget.VerifyIdentityItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            app:kyc_content="@string/kyc_verify_identity_photo_of_your_id_or_passport"
+            app:kyc_icon="@mipmap/kyc_verify_passport"
+            app:kyc_index="1"
+            app:kyc_title="@string/kyc_verify_identity_document" />
+
+        <network.mintex.module_kyc.ui.widget.VerifyIdentityItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:kyc_content="@string/kyc_verify_identity_photo_of_you"
+            app:kyc_icon="@mipmap/kyc_verify_selfie"
+            app:kyc_index="2"
+            app:kyc_title="@string/kyc_verify_identity_selfie" />
+
+        <network.mintex.module_kyc.ui.widget.VerifyIdentityItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:kyc_content="@string/kyc_verify_identity_complete_with_your_personal_detail"
+            app:kyc_icon="@mipmap/kyc_verify_full_legal_name"
+            app:kyc_index="3"
+            app:kyc_title="@string/kyc_verify_identity_personal_detail" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:src="@mipmap/kyc_verify_light"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tv_tip"
+        android:tag="@string/kyc_tag_main_color"/>
+
+    <TextView
+        android:id="@+id/tv_tip"
+        style="@style/font_14_regular"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        android:text="By tapping Next, you accept our Terms and Conditions and agree to our processing of your personal data, as described in the Consent to Personal Data Processing."
+        android:textColor="@color/color_c4c4c4"
+        app:layout_constraintBottom_toTopOf="@id/tv_next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/iv_light" />
+
+    <TextView
+        android:id="@+id/tv_next"
+        style="@style/font_14_bold"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="41dp"
+        android:background="@drawable/shape_rect_bottom_btn_bg"
+        android:gravity="center"
+        android:text="@string/next"
+        android:textColor="#FFFFFF"
+        android:tag="@string/kyc_tag_bottom_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <include
+        android:id="@+id/layout_power"
+        layout="@layout/layout_powered_by"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

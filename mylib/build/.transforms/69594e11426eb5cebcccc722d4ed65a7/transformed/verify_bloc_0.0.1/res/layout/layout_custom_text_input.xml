@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/font_12_regular"
+        android:textColor="#899995"
+        android:text="First Name"
+        android:tag="@string/kyc_tag_title_desc"/>
+    <EditText
+        android:id="@+id/et_input"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        android:inputType="text"
+        android:layout_margin="1px"
+        android:layout_marginTop="5dp"
+        android:paddingStart="16dp"
+        style="@style/font_14_regular"
+        android:lines="1"
+        android:maxLines="1"
+        android:textCursorDrawable="@drawable/cursor_34e69b"
+        android:background="@drawable/shape_rect_personal_detail_input_bg"
+        android:textColor="#FFFFFF"
+        android:allowClickWhenDisabled="true"
+        android:tag="@string/kyc_tag_input_item"/>
+    <TextView
+        android:id="@+id/tv_error_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_input"
+        android:layout_marginTop="5dp"
+        style="@style/font_12_regular"
+        android:textColor="#ea5e61"
+        android:text="@string/tip_this_field_is_required"
+        android:visibility="invisible"/>
+
+    <View
+        android:id="@+id/error_bg"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="@id/et_input"
+        app:layout_constraintEnd_toEndOf="@id/et_input"
+        app:layout_constraintTop_toTopOf="@id/et_input"
+        app:layout_constraintBottom_toBottomOf="@id/et_input"
+        android:background="@drawable/shape_rect_personal_detail_input_error_bg"
+        android:visibility="invisible"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
