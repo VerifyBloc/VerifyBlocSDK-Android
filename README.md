@@ -42,21 +42,21 @@ Kotlin = 1.3+
 
 导入SDK，鼠标右击Project， 选择New, 在弹出列表选择Directory
 
-[https://lh5.googleusercontent.com/tcdqt13PjBoD5fmgpwtnSME4NSwZWql3Ewf2xfwKM2L8CFAYSdLAdj9BCdPNRy65R-aMA0EkkKjRWIvAGBsN041Yc82TkFM7WPDJUE9lMDUTjvGzQCCSXU2R055cTrJCrtn_VZhq0svKCHBNDlLNytLyou-Mwu951uBEIKrskoKmPKbis7dQlsWicq5b8g](https://lh5.googleusercontent.com/tcdqt13PjBoD5fmgpwtnSME4NSwZWql3Ewf2xfwKM2L8CFAYSdLAdj9BCdPNRy65R-aMA0EkkKjRWIvAGBsN041Yc82TkFM7WPDJUE9lMDUTjvGzQCCSXU2R055cTrJCrtn_VZhq0svKCHBNDlLNytLyou-Mwu951uBEIKrskoKmPKbis7dQlsWicq5b8g)
+![image](https://github.com/VerifyBloc/VerifyBlocSDK-Android/blob/master/image/image2.png)
 
 在弹出的New Directory Dialog中，填写Directory Name, 例如：mylib。
 
-[https://lh3.googleusercontent.com/LN99WRAYZYKN2XdOGxjzO09-hcSHMaukSpCP0e1V7KQV8pDaU7NMgcJDtK1m669RjxBq9oz1I_VldAbcCsh4si_jddzsd9oYckxA_yDj7a7NParPyFtbLm8_sKrH_jFYaVh2Ca_iFLn_HDt4XI8yl4t1_rJv8C9JLk5xexoEgLo0RQngYAzZsHHBHyrBiQ](https://lh3.googleusercontent.com/LN99WRAYZYKN2XdOGxjzO09-hcSHMaukSpCP0e1V7KQV8pDaU7NMgcJDtK1m669RjxBq9oz1I_VldAbcCsh4si_jddzsd9oYckxA_yDj7a7NParPyFtbLm8_sKrH_jFYaVh2Ca_iFLn_HDt4XI8yl4t1_rJv8C9JLk5xexoEgLo0RQngYAzZsHHBHyrBiQ)
+![image](https://github.com/VerifyBloc/VerifyBlocSDK-Android/blob/master/image/image3.png)
 
 ## Edit mylib
 
 右击mylib，在弹出列表中选择New, 然后选择File
 
-[https://lh4.googleusercontent.com/b31ky1D7pC7g_XwzNLOqyQYHuN7OOzhMETWM5T_wL9BHk0h9NkV2UwAWMFoPMG-E-sVe3oBHhToUjIs1ZhnwTmmr_OOgoHMGLNa7D40nbXlm8Uz3Y-XP02OFMXPO_C0oUsKwvP1XjugWvWSXhWn_ynBg1iS4y01lzJW5Xa952_lliSSs46cfk_q-npqYxw](https://lh4.googleusercontent.com/b31ky1D7pC7g_XwzNLOqyQYHuN7OOzhMETWM5T_wL9BHk0h9NkV2UwAWMFoPMG-E-sVe3oBHhToUjIs1ZhnwTmmr_OOgoHMGLNa7D40nbXlm8Uz3Y-XP02OFMXPO_C0oUsKwvP1XjugWvWSXhWn_ynBg1iS4y01lzJW5Xa952_lliSSs46cfk_q-npqYxw)
+![image](https://github.com/VerifyBloc/VerifyBlocSDK-Android/blob/master/image/image4.png)
 
 弹出的New File Dialog中填写build.gradle
 
-[https://lh6.googleusercontent.com/CJG8ecRf1jZZRyHmBAu2su_Gc4T2r3HfY_H6pSvX1Pg5Aq6ZRipk3vZFHhfvjBND9Tz0oI2ISyOblpHGBs7crxoJvynC9i839vRBthVh5zfF1bW5Bht0_ZL3yyk-yEkKUa1-bXLAwo4uo5eyernvxuKnFjybJZ6A9mhNX9ua4I1_NfrKoE42xaq1dDF_yw](https://lh6.googleusercontent.com/CJG8ecRf1jZZRyHmBAu2su_Gc4T2r3HfY_H6pSvX1Pg5Aq6ZRipk3vZFHhfvjBND9Tz0oI2ISyOblpHGBs7crxoJvynC9i839vRBthVh5zfF1bW5Bht0_ZL3yyk-yEkKUa1-bXLAwo4uo5eyernvxuKnFjybJZ6A9mhNX9ua4I1_NfrKoE42xaq1dDF_yw)
+![image](https://github.com/VerifyBloc/VerifyBlocSDK-Android/blob/master/image/image5.png)
 
 打开build.gradle，输入以下内容
 
@@ -93,19 +93,19 @@ dependencies.add("default","androidx.camera:camera-extensions:${camerax_version}
 
 把下载的sdk文件拷贝到mylib文件夹里，最后mylib的文件结构如图
 
-[https://lh6.googleusercontent.com/m-iBnqVmJN6ij9RtJKYdgGyxg3_NkD0qyDRiFD1dNpCNkBb07RLi-vuoDsPW68UltetEyi-J7yBVbZXfV8PIAXENtWdPcrCcoF_zF8c6o9PPBMW5nHwfEgin1o0uNnZr439lqtK_ckaqeSxH_XPDybxnqt_axCafXubxDrYtjt_aA785gi73_M4CBpocIQ](https://lh6.googleusercontent.com/m-iBnqVmJN6ij9RtJKYdgGyxg3_NkD0qyDRiFD1dNpCNkBb07RLi-vuoDsPW68UltetEyi-J7yBVbZXfV8PIAXENtWdPcrCcoF_zF8c6o9PPBMW5nHwfEgin1o0uNnZr439lqtK_ckaqeSxH_XPDybxnqt_axCafXubxDrYtjt_aA785gi73_M4CBpocIQ)
+![image](https://github.com/VerifyBloc/VerifyBlocSDK-Android/blob/master/image/image6.png)
 
 ### 项目中导入aar模块
 
 打开Project目录下的setting.gradle, 在后面加上 include ‘:mylib’, mylib是文件夹的名称。
 
-[https://lh3.googleusercontent.com/yLPgESU1xSeiTwZ3JBBcN-jBLC1k2_sBM1eb28s9Ue-5UlRy_fr7n31npcHvgvM9O3XCi4Iqkk6r-248YEp0QofLTydnX96fwK7SI9oj0ViJ17aEiZTrOLfSny4Gl8dzhaBEk-T_G0G-96zxAlkncyJEpo17kbGaFhi6c3EwyGkONjq2LzcFTebwMTy3ZQ](https://lh3.googleusercontent.com/yLPgESU1xSeiTwZ3JBBcN-jBLC1k2_sBM1eb28s9Ue-5UlRy_fr7n31npcHvgvM9O3XCi4Iqkk6r-248YEp0QofLTydnX96fwK7SI9oj0ViJ17aEiZTrOLfSny4Gl8dzhaBEk-T_G0G-96zxAlkncyJEpo17kbGaFhi6c3EwyGkONjq2LzcFTebwMTy3ZQ)
+![image](https://github.com/VerifyBloc/VerifyBlocSDK-Android/blob/master/image/image7.png)
 
 ### 在app module 中添加依赖aar包
 
 打开app module 下面的 build.gradle，在dependencies 块中添加mylib module，如下图：
 
-[https://lh6.googleusercontent.com/xUzN0xcdb5NMRDLKM6Xg9LksCUK5X4IWaSMsfzcMd0dNB3F6ahcLhjdcO_PsO3jp_cMy4bh88ciLBKX5wertkk1a1irlJZ3Y595yzopmqzhoYmZt-gkuAvV97l9nM2FFrms_KuTrTYSqRAthiw2h95WC900fS0bFgqcPpd1OgWorKcZW27UGJJVMF5LO6A](https://lh6.googleusercontent.com/xUzN0xcdb5NMRDLKM6Xg9LksCUK5X4IWaSMsfzcMd0dNB3F6ahcLhjdcO_PsO3jp_cMy4bh88ciLBKX5wertkk1a1irlJZ3Y595yzopmqzhoYmZt-gkuAvV97l9nM2FFrms_KuTrTYSqRAthiw2h95WC900fS0bFgqcPpd1OgWorKcZW27UGJJVMF5LO6A)
+![image](https://github.com/VerifyBloc/VerifyBlocSDK-Android/blob/master/image/image8.png)
 
 最后点击Sync Now同步下工程代码
 
