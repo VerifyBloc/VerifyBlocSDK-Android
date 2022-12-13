@@ -24,11 +24,13 @@ Kotlin = 1.3+
    5. App logo or profile photo
 3. With the first 2 steps finished, we'll provide you with VerifyBloc SDK(s) and Demo App(s)
 
+---
+
 ## 集成方法
 
 提示：以下说明及截图的开发环境为 Android Studio Dolphin
 
-### Create aar module
+### Step 1. Create aar module
 
 新建或打开一个 Android Project，切换到 Project 视图
 
@@ -42,7 +44,7 @@ Kotlin = 1.3+
 
 ![image](https://github.com/VerifyBloc/VerifyBlocSDK-Android/blob/master/image/image3.png)
 
-### Edit mylib
+### Step 2. Edit mylib
 
 右击 mylib，在弹出列表中选择 New，然后选择 File
 
@@ -89,13 +91,13 @@ dependencies.add("default","androidx.camera:camera-extensions:${camerax_version}
 
 ![image](https://github.com/VerifyBloc/VerifyBlocSDK-Android/blob/master/image/image6.png)
 
-#### 项目中导入 aar 模块
+#### Step 3. 项目中导入 aar 模块
 
 打开 Project 目录下的 setting.gradle，在后面加上 include ':mylib'，mylib 是文件夹的名称。
 
 ![image](https://github.com/VerifyBloc/VerifyBlocSDK-Android/blob/master/image/image7.png)
 
-#### 在app module 中添加依赖 aar 包
+#### Step 4. 在app module 中添加依赖 aar 包
 
 打开 app module 下面的 build.gradle，在 dependencies 块中添加mylib module，如下图：
 
@@ -103,6 +105,7 @@ dependencies.add("default","androidx.camera:camera-extensions:${camerax_version}
 
 最后点击 Sync Now 同步下工程代码
 
+---
 ## 方法介绍
 
 所有 Export 的接口在 VerifyBlocManager 类里
