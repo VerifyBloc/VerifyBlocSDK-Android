@@ -38,7 +38,7 @@ Kotlin = 1.3+
 
 新建或打开一个Android Project， 切换到Project 视图
 
-[image](https://github.com/VerifyBloc/VerifyBlocSDK-Android/blob/master/image/image1.png)
+![image](https://github.com/VerifyBloc/VerifyBlocSDK-Android/blob/master/image/image1.png)
 
 导入SDK，鼠标右击Project， 选择New, 在弹出列表选择Directory
 
